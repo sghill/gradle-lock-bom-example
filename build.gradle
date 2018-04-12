@@ -1,0 +1,21 @@
+plugins {
+  id 'java'
+  id 'nebula.dependency-recommender' version '5.2.0'
+}
+
+dependencyRecommendations {
+  mavenBom module: 'org.springframework:spring-framework-bom:latest.release'
+}
+
+repositories {
+  jcenter()
+}
+
+dependencies {
+  compile 'org.springframework:spring-context'
+}
+
+dependencyLocking {
+  lockAllConfigurations()
+}
+
