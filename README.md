@@ -27,3 +27,9 @@ Branch: new-bom-support
 
 * Uses `enableFeaturePreview('IMPROVED_POM_SUPPORT')` in settings.gradle
 * `./gradlew build` succeeds
+
+Branch: use-version
+-------------------
+
+* `./gradlew build` succeeds
+* `./gradlew dependencies` fails
