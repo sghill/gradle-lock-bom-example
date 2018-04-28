@@ -7,20 +7,7 @@ Branch: master
 --------------
 
 * Uses [nebula.dependency-recommender](https://plugins.gradle.org/plugin/nebula.dependency-recommender)
-* `./gradlew build` fails with transitives that are present in the lock
-
-```
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Could not resolve all dependencies for configuration ':compileClasspath'.
-> Dependency lock state for configuration 'compileClasspath' is out of date::
-    - Resolved 'org.springframework:spring-aop:5.0.5.RELEASE' which is not part of the lock state
-    - Resolved 'org.springframework:spring-beans:5.0.5.RELEASE' which is not part of the lock state
-    - Resolved 'org.springframework:spring-core:5.0.5.RELEASE' which is not part of the lock state
-    - Resolved 'org.springframework:spring-expression:5.0.5.RELEASE' which is not part of the lock state
-    - Resolved 'org.springframework:spring-jcl:5.0.5.RELEASE' which is not part of the lock state
-```
+* `./gradlew build` succeeds as of 4.8-20180428001031+0000
 
 Branch: new-bom-support
 -----------------------
@@ -32,4 +19,5 @@ Branch: use-version
 -------------------
 
 * `./gradlew build` succeeds
-* `./gradlew dependencies` fails
+* `./gradlew dependencies` succeeds as of 4.8-20180428001031+0000
+
