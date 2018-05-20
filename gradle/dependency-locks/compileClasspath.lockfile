@@ -6,4 +6,5 @@ org.springframework:spring-beans:5.0.6.RELEASE
 org.springframework:spring-context:5.0.6.RELEASE
 org.springframework:spring-core:5.0.6.RELEASE
 org.springframework:spring-expression:5.0.6.RELEASE
+org.springframework:spring-framework-bom:5.0.6.RELEASE
 org.springframework:spring-jcl:5.0.6.RELEASE
