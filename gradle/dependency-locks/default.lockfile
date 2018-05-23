@@ -1,9 +1,6 @@
 # This is a Gradle generated file for dependency locking.
 # Manual edits can break the build and are not advised.
 # This file is expected to be part of source control.
-org.springframework:spring-aop:5.0.5.RELEASE
-org.springframework:spring-beans:5.0.5.RELEASE
-org.springframework:spring-context:5.0.5.RELEASE
-org.springframework:spring-core:5.0.5.RELEASE
-org.springframework:spring-expression:5.0.5.RELEASE
-org.springframework:spring-jcl:5.0.5.RELEASE
+com.github.rholder:guava-retrying:1.0.7
+com.google.code.findbugs:jsr305:2.0.2
+com.google.guava:guava:10.0
